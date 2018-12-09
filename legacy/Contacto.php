@@ -576,8 +576,6 @@ a:hover
 </li>
 <li><a href="./Buceo.html" target="_self">Buceo</a>
 </li>
-<li class="lastitem"><a href="./Excursiones.html" target="_self">Excursiones</a>
-</li>
 </ul>
 </li>
 <li><a href="./La_playa.html" target="_self">La&nbsp;Playa</a>
