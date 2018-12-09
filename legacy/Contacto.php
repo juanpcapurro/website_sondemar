@@ -528,7 +528,7 @@ a:hover
 <div id="wb_Text8" style="position:absolute;left:644px;top:924px;width:198px;height:16px;text-align:right;z-index:19;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:13px;">Tel: 236154597613</span></div>
 <div id="wb_Text9" style="position:absolute;left:1px;top:680px;width:362px;height:34px;z-index:20;text-align:left;">
-<span style="color:#000000;font-family:Arial;font-size:15px;">Email: infosondemar@gmail.com.ar<br>Consultas telefónicas: 236154597613</span></div>
+<span style="color:#000000;font-family:Arial;font-size:15px;">Email: infosondemar@gmail.com<br>Consultas telefónicas: 236154597613</span></div>
 <div id="wb_Text10" style="position:absolute;left:8px;top:257px;width:357px;height:18px;z-index:21;text-align:left;">
 <span style="color:#000000;font-family:Arial;font-size:16px;">Formulario de contacto:</span></div>
 <div id="wb_Form1" style="position:absolute;left:12px;top:278px;width:415px;height:405px;z-index:22;">
