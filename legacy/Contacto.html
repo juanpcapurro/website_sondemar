@@ -7,6 +7,17 @@
       content="WYSIWYG Web Builder 9 - http://www.wysiwygwebbuilder.com"
     />
     <style type="text/css">
+    .contact-form {
+      max-width: 400px;
+    }
+    .contact-form label {
+      display:flex;
+      justify-content: space-between;
+      padding: 0.5em;
+    }
+    </style>
+
+    <style type="text/css">
       div#container {
         width: 800px;
         position: relative;
@@ -454,8 +465,8 @@
         id="wb_Text9"
         style="
           position: absolute;
-          left: 1px;
-          top: 680px;
+          left: 10px;
+          top: 580px;
           width: 362px;
           height: 34px;
           z-index: 20;
@@ -465,6 +476,10 @@
         <span style="color: #000000; font-family: Arial; font-size: 15px"
           >Consultas telefónicas:
           236154597613</span
+        ><br>
+        <span style="color: #000000; font-family: Arial; font-size: 15px"
+          >Consultas por email:
+          <a href="mailto:infosondemar@gmail.com">infosondemar@gmail.com</a></span
         >
       </div>
       <div
@@ -479,9 +494,39 @@
           text-align: left;
         "
       >
-      <p style="font-size: 16px">
-        Para reservas comunicarse a <a href="mailto:infosondemar@gmail.com">infosondemar@gmail.com</a> especificando dia de ingreso y egreso deseado.
-      </p>
+        <form class="contact-form" action="https://formsubmit.io/send/infosondemar@gmail.com" method="POST" accept-charset="utf-8">
+          <label>
+            <div> Nombre: </div>
+            <input required type="text" name="nombre"  placeholder="Juan Peron">
+          </label>
+          <label>
+            <div> Email: </div>
+            <input required type="email" name="email"  placeholder="general@jp.net">
+          </label>
+          <label>
+            <div> Contacto telefonico: </div>
+            <input type="tel" name="phone"  placeholder="2364597613">
+          </label>
+          <label>
+            <div> Prefiero que me contacten por whatsapp: </div>
+            <input type="checkbox" name="prefer-whatsapp" >
+          </label>
+          <label>
+            <div> Fecha ingreso: </div>
+            <input required type="date" name="date-in"   >
+          </label>
+          <label>
+            <div> Fecha egreso: </div>
+            <input required type="date" name="date-out"   >
+          </label>
+          <label>
+            <div> Comentario: </div>
+            <input required type="textarea" name="comment"   >
+          </label>
+          <input type="hidden" name="_replyto" >
+          <input type="hidden" name="_redirect" value="https://sondemar.com.ar/exito.html">
+          <input type="submit">
+        </form>
       </div>
       <div
         id="wb_Image1"
